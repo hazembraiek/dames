@@ -1,0 +1,38 @@
+.game {
+  /* margin-top: 200px; */
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: calc(8 * 80px);
+  flex-wrap: wrap;
+  border: 35px solid rgb(26 17 0);
+  border-radius: 10px;
+}
+.user {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user p {
+  padding: 5px;
+  border-radius: 7px;
+}
+.user p span {
+  border-bottom: 3px solid black;
+  text-align: center;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+.wh {
+  background-color: rgb(162, 162, 162);
+  color: white;
+}
+.bl {
+  background-color: black;
+  color: white;
+}
